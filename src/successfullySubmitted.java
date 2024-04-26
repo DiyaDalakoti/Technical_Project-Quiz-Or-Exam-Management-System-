@@ -33,6 +33,7 @@ public class successfullySubmitted extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -54,7 +55,10 @@ public class successfullySubmitted extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 20, -1, -1));
-
+        
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stu_details.jpg"))); // NOI18N
+        jLabel3.setText("jLabel3");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -60, -1, -1));
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
